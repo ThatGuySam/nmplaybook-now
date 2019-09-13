@@ -1,8 +1,8 @@
 FROM nginx:alpine
 
-ENV HOST churchplaylists.now.sh
+ENV HOST now.nmplaybook.com
 ENV PROTO https
-ENV REDIRECT Pre-Post-Playlists-for-Church-53cff7092dd9477aa2102d99b3648cd5
+ENV REDIRECT NM-Playbook-562e8caac1c94ec7893b5d97bbc82ec3
 
 # Install gotpl
 RUN wget -qO- https://github.com/wodby/gotpl/releases/download/0.1.5/gotpl-alpine-linux-amd64-0.1.5.tar.gz | tar xz -C /usr/local/bin
