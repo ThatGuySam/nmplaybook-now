@@ -1,7 +1,7 @@
 FROM nginx:alpine
 
-ENV HOST example.com
-ENV PROTO http
+ENV HOST churchplaylists.now.sh
+ENV PROTO https
 
 # Install gotpl
 RUN wget -qO- https://github.com/wodby/gotpl/releases/download/0.1.5/gotpl-alpine-linux-amd64-0.1.5.tar.gz | tar xz -C /usr/local/bin
